@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Organic Food Website </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="top-bar row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <small><i class="fa fa-map-marker-alt me-2"></i>Gate no 619,At Bothe,Post Kulakjai,Tal Man,Dist Satara</small>
+                <small class="ms-4"><i class="fa fa-envelope me-2"></i>info.maandeshagro@gmail.com</small>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <a class="text-body ms-3" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-twitter"></i></a>
+                <a class="text-body ms-3" href="https://youtube.com/@maandeshagrofpoltd8264"><i class="fab fa-youtube"></i></a>
+                <a class="text-body ms-3" href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <div class="header">
+                    <img src="img/Logo.jpeg" alt="logo">
+                </div>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="product.html" class="nav-item nav-link">Products</a>
+                    <a href="contact.html" class="nav-item nav-link">Feedback</a>
+                    
+                    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="feature.html" class="dropdown-item">Our Features</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="d-none d-lg-flex ms-2">
+                   
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="signin">
+                        <small class="fa fa-user text-body"></small>
+                    </a>
+                    <a class="btn-sm-square bg-white rounded-circle ms-3" href="getallcartlist">
+                        <small class="fa fa-shopping-bag text-body"></small>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">Products</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="#">Pages</a></li>
+                    <li class="breadcrumb-item text-dark active" aria-current="page">Products</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+     <!-- Product Start -->
+     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-0 gx-5 align-items-end">
+                <div class="col-lg-6">
+                    <div class="section-header text-start mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <h1 class="display-5 mb-3">Our Products</h1>
+                        <p>It's always better when its natural !</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
+                        <li class="nav-item me-2">
+                            <a class="btn btn-outline-primary border-2 active" data-bs-toggle="pill" href="#tab-1">Vegetable</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Tomato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="tomato.html"><i class="fa fa-eye text-primary me-2" ></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="https://www.kitchenkneads.com/wp-content/uploads/2016/06/Soybeans-1000x1000.png" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Soyabean</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="soyabean.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Chilli</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="chilli.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="data:image/jpeg;base64,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" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh French Beans</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="bean.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="https://th.bing.com/th/id/OIP.044xCKUw2HgZjufqb1di_gHaFc?w=262&h=193&c=7&r=0&o=5&pid=1.7" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Carrot</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="carrot.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="https://th.bing.com/th/id/OIP.HPawGlxdXne3DAesnIQ8QQHaFj?w=248&h=186&c=7&r=0&o=5&pid=1.7" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Onion</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="onion.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AQQDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAAIDBAUGAQf/xABAEAACAQMDAwIDBAgDBwUBAAABAhEAAyEEEjEFQVEiYRNxgQYykaEUI0JSYrHB8BXR4RYzQ3KCkqIHNGNz8bL/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwIEBQEG/8QAJREAAwACAgIDAAIDAQAAAAAAAAECAxEEIRIxEyJBBVEUMmFC/9oADAMBAAIRAxEAPwD1uiiigAooooAKKKKACiiigAooooAKKKKACiim7t63ZUvcaB2HcnwK42ktsPfQ5SSyjlgPmQKpr3VC5IQlRn0rgwMZao632bbzBJkrk/nWdl58Q9JbLccWqW2aHch/aH4iu1n0ffv24jAzknjNSEa4ANrNIifUZ+lRn+QT9ydfFaXsuaKgrqLq5J3Adj/nUtLiuAVPzHcVcxciMv8AqV7xuPYuiiirAsKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigApLMqgsxAAySaVVD1HWI5ZS7KglVCk5GZYx5pObKsc7GY8bt6JV3qisSljsdpdhMH2FU+r1Go1SMTdC5KozidoB8CKZs3bEhrabVCkr5BYwTBqNqb24tglU4zznx5rHyZ7yrtmlGGYfQ6F9I2sTmJ7VIs8nMwIPifcVWC9cCjJDMCBHAyfNK018295JLO0kBRDNHIzWbX9lvXRd2iWgztOBtwxXyJFTrCvkmCBOe8iqlL1pIuHBj7o8nNS16hahtwIKjticTAqWO0/YnJL10WIQ57AngefNK3/DO4FRETPceKq7fUVuHcpLSdwE4GIzHam3vuzDc2Jjv+Ap/zTC8kJ+Gm9Mt7nUrSmEWfdjA/Kl29crwWSAe6mRVPChWd/ugSTzgZp/SXFdZVdtvhP4vcTTp/kcjZF8aEi6S4jiVM0uq2SI2mP77VIt32AAuCfcc1pYeZN9V0U7wtdolUVV3OpsHKqgABg75LfMgVIta0OBuH1H+VM/zMPl47OPBaW9EyikqysJBkUqrSaa2hIUUUV0AooooAKKKKACiiigAooooAKKKKACiiigAooooAa1DFLF9hyLbfyisdq3LFpOIgAdifetncUXEe2eHVl/ERWD1Ca0teUWXBV2UlgFEqduN0Vlc9V9Wi/w9dkS3fezeXcSEIKE5gTiYp1b6g3FMHcZImDPtNR7ml6mwP6tFgTN18EexSardS+s08m6oYgc2iWJXzBispuktGl02XLMiktPpkHn2wK42oW3tPpAMzODPtWbtdWliWK+DBM47EEUXOo7jgyI5NV7mvTJpIvW6gFOGGSTz3qNqOqkBl3Hj8aoX1dvxwZnHNQb2qdt0H60ucFNk00j0Tprn9CsOIe7dRWEmIDGY47CpfxCGXmAYyD47VnugdQF7p+jXcu+2hsmcZtnbmPaDV38TgzP+tdyrX1YvXeywF0MgWeQeOafsXYAWD6SFEnn8aqrbBdpYEOyy0NKiMxUm3eSVlgCx9IYiTHgGkTTTOONouVlgJIyPECnUmYOVOR4z2FV9l4IIIjaAFnJPJyTU1GystkTHgz7VfxZEynctCdVpRfUMh23EnYwxP8Le1QrFxhKPuDKTuU8/KrYGYjIM5U8Eeah62wIN9MPbPq91H+VTzYm/vP4RxZP/ABRLtOF2FSYbxJFTQZE1V6e4XUbQD6fOKn22jH9itHhZtJJ+mVc8aY9RRRWyVQooooAKKKKACiiigAooooAKKKS7Kis7GFUSSaAOkhQSSABkknAqFd6jYQlU9RHc4H+dQ9Vq2unnag+6p/marbt5cwRjwOazM/M11BdxcbfdE+91PU5h1UeFAx9cmoF7q+sXCakz7EfyNQr1wO25hhZInABqItpdXqbNnhWlrjKfu2lyxB/IfOqP+TdP2XVghL0XOl6n1V7F27fvxbuDbaUhJ2TG8lROeBTVy+4LMzSWAhXUArGCTJ70p3QNsVAu0IQFEIFAIVQfaq7WteV7fp3oRMtyY+lKz5qrrZ3HjlPaQ+NQB6bpXcZZVgSoOKg6i0t0sCUO6dnAj2FcuuGCvJkdgJ+h71Ha+WMIwkcwBIPGAarz29lnWvRlusdMNvffs7luJJccE+3is+NVeggntyT4r0h+n6nXgIuAQVa5d+6BEZAyT8vyp3p/2O+z+iYXryNrdRuL7tUAbKGf+HYHp/HdV3DX1fmItrfRgNDous9S/wDY6O/qFkA3EWLQPvdchP8Ayq7t/Yn7U3l3XP0CyTyt3UszAe/wrbL+dekKyoqoAAiwqqoAUCOABipNpC0ST5jtXKypPSRDbPOtD9mftT0x7gK6S9af1RptR61dRghbqLzwc1NbV3rDG1qVu2rkZt3lKH0mZB7/AI16Ay6ZYJIlhAE8yOAKrdTptN1BL9jVWEuWQfQ2P+5SPUCOxFVOTKt/0xmLL/ZlRrRdAIbkjuRMdqn2bodgWGEjbJUzIzHfFUXVun6jol61uZrmjvNFi8R6gSJNu7GN3g9/pAVoNXBJLeljJPMdpqjUVK7LulS3Jrbd/tnBAmPbtVpaZWVCNu9fuzwJ54rPWb4ET3Pnk1Ps3lmCZDdiPeoY8viyvkjZoFdOJ5B4rpZNo7gjv3HvVfbvHJMHJ27c4p0O25gSIJUAnycVqxmVLRQeHTG7DpZv37I4Vzt8BT6gPzqxRhAKz4M848zWVs6wXtbqGVxFy65t/wD1g7Qf5VoLN8MUXMlTml4MqTaRPNieky0UyAaVUfTsfWp7EEVIr1GG/OEzKpaegoooppEKKKKACiiigAooooAKquq6jbssA+Hf+gq1rNdQbdqNQT+zcKfRcRVTl24x9FjjT5X2RncEZmIn+xUO7cVTiD2pd1o3A9gABNQb1xgO0AT5zXmclPZtxIjU6gwcwRPHaneiPvudQedzLbtIABJAZiTA+gqk1WpZiVEj+LyfAqX9nNQBc6moEStgkDmZcV3C/to7kn6M0Fy8u5QCfV6QOxM8yKg3LgZ7ykswDY3cDHCwOKLr7N5B2ovEEQKgG9bYRbQgWm2qYIAMcrNdyMhMinUqWKsACCSv+tK6foruquG/dUrYkFQDm7H9P50jSWP8RutuYnTWWX4uwwLj8i3Iz7n/AFq9Z2UD4YCkQIHAAEQIpmGd/agutdIfRbVoAAAMBhcQvtApLshkL2mRPf6VG3kyWCkkHeVGTHAoVywJgryDIg4pl5G10JmR1SSYJ9IjGf61YWLir37R8hVSHAJ3E45HepFq8BGQF5BnEVRd1vbGOU0WtzTWdSu11ZkLK/pYg7lmCIotaRbQO1mIJ+6xnb2ge1N2b5KqRx4+vNP/AKQJEwRircuGvsV35LpEbqvTbHUtDqNG4EXrZCNGbd0ZRx7gx/ZrynQ3Sh2OSGUlGA5Vh6T+FeyTJtkxJdcfM814LqdUy9T6mUzbOu1bJGIU3nIqd4fmTUjuPl8OmbqxfIRSIbgif51YWLnZSRmeScnnmsZpdbIRiHBiJg7fHyq602qJZWNwiBkLEfPNYmSKxvTNDSpbRq7F0qVU7oOd3aZ+75mmuva1tF057oO27ci1ZjBa9dBBb/pXcf8A9quXq2h0q/F1ept2kXJ+Iw3GOyIMk1lurdefreqtOv6vR2Ayaa0SC2fvXLkY3HHyGPc3ePtw60IeP7ovem3wVQboJUZ7gVqdNfu/GtbRb/R9p3MT692IgRx9awOie4DbIIKg5BziK2GguKVVgRxMDufak4X4tpnc07RqdLcVrpAPKn6xmp1VXTQS5JMlVbcfc1a163gtvFtnn+Qkr0goooq8ICiiigAooooAKKKav37WnTfcMDgAcsfAFcbSW2dS30hysx1EoNZfCsGViHlSCJIyKR1DrF25vUStsSCikif+Y96zb9TZbgJlrYEMoyywY3D39qxuVy4v6I0+Nxqn7Mnaq6qAEnzyeJqrv6kgHIJ4YDsPNL1OotOq3ZDCMEGVP+tZ7UdRtl3UHPiay6x+X+ppT17HdTqRn8z70roOr2a69bLf7+2NueTaJaPwJ/CqW9qmz3kmoP6a+nv2L6ffs3FuASRMcgx2PFOwYHs5kta0ek37ytvQiQQJnGCeDVdfuu8W0EJPqnJ2jsAPNRU19nU2rd604a3cXcsHIPdW+XenbN1Wv6YSPVftBvluGKTlhqiM+jSaWzZ0thLSBUX777REuckmP7xTnxAYZscgeTFMs4gkzMkj+WajPqDEjtz/AK027S+oqZ32TWdYO3Aj7wAH4Un40wZERiOT8+3yqCLpPBhRxnJ+dK+KgDjkqAwAGQKr1f4MUkl2L7gJ9iDEfKnUIkBiMwqyRk88VX/HiC+LbQQcgqfBpf6QAEKkcjL5x7Gq11oYpLq1da1mZQGTgk++BUxLoMEhA3II4MY4rNt1AsCqjbGJJg/SlDqGy2zuVCoC7M5ARVX9ok4ApmPI/WhdYv0t+q9Us9L6f1DWuwnT2WNsE5e+wK20E+SR/YrxRLd1juyWJnGZJ8mtL1XqV7r2otWLbMOn6ZzcSZU6i8fT8VwewGEHuTyYE3Q9O01sqCBuABgRx8zWh8qwLv2yE4tlBY6X1DUBVJv7TkrucLHuOKu9D9mnMb7moVeIDutajSaZFUHMdpjNW9i2pX0iPBYHt7GqdZ8mT90O2oKnQdI0thCBaD4g7gGLHxLVOfpPR2dGuaDRsW/f01qTjyFqdsKiFaMRIiR7iaeWIAJmOZioTtPTYurbIK9E6J6tmjt227fB3Wyf+0xTtvpS2ifhFto43Nu+nFSpG4k4HGD5qSG2jJxPP9KuRjliayUv0kaG2ttGkj4hIkeFHAqbVejSTAwMhpzPipNm/vLK0BljIyDInFbXGyypUejLyy23Q/RRRV8QFFFFABRRRQA3duJaR7jn0qJ9z7CsxrNZd1DFyYEkIOwA7CrLq987ksqcINzjyx4/v3rP3H2lj3yD7TWLz87b+Ofw0+JiSXmyv1TOCSzMVJPHaRHFU15Vzj7x74kk+1XV8tchLa7nY7QoIE/U+OTVhotBo9Gq3bgF3UZ9bCAJ52TkD86yZl2aTpSjFnp/W3X4mnsXLaE+o6gi2jAcSr5I+lR26H1u6SRptzEhZ0lq84n3YqB+demJd3EkW0UczgkfjQ9w79wLMSsASYJ5gdqtw/HpCKtv2jy8/Y77VXcrpnA4m69i2P8AyuT+VJb7B/adQXfT6a53C/piD8hH869SuO6rAJlgeTgUg3WiCce3emPkOEL06PILljrPRHCanRNYtO2VI/VOf4bikrP1qTb1wlLtpsoytBiQVMwQa9S1Gms6q1csuqulxdty24DKwPkGvOep/Zx9JrLyWiE01z12iZLW2nKDyPGais0ZOq6ZNKl6Ls9StXUS6rDayg8/l9KbbVq0+oHAiDyKz66c6ZDbS+7H73ryCfkKYbU6m3yMe1V6w+T2mOVJezRfpm2JaSBHPP8ASlHWCC273Wf2cRWWfX3O4Mj2pH6bfc/Dt27lx2mFQEmj/FpnfklGnTXj1SZOZzz8prja0HG4A9xGPkKp9N0r7Q6oqRaSyv8A8hZj+Ax+dXFn7Kaxwfj6u6pPPwiEOfcZ/OoVxol/aifyddIjanrWh0IPxbm5wMWbcNd+vYfU1nNT1fXdXui05+Fo1O5dPbJ2kg4+IeSf7itU/wD6faS4rm3q9UjngsLdxZ8kEAn/ALqpdT9l+sdGZ71xV1GkETf04b9WPN62fUPnke9X8M4Mctw90Vau7pJ+ib0y2ihBGec1p9JtG0bVBYycc1ldEwSHn2B8Cr21qlUJk5AyeKxMqfm3su666NLpTJbdAAMAc4qztCQcMoGAZGRHIis307VOwVB6ysBnbEmrpWusu1rkD+Hx4mpxsRaJNy4qlfzn2qMNVaNyd/qCFCo45nPvSbulbUKqi/ethWDejad0djIplelX7Zdrd0XJJIDja31PFSqK9o5Pj+k63dUtuLGeBnGc8eakLdv+gBZltpyI2zG6aqI1Noj4tt0XBmJX6lZH51Nt3xtLMWCKvxCZhcc8U3Hlc9MjeP8AUWlu5bLOiYaQ7R3IAGT+VLJul7S29ko9s3h/AwYFRHfgioy3N4tspYQQccH50rRo1j9Ilp33AwPcjycc1djImU7j9LW2+Sjcjg+RTtQA8mR95Wz86mqdyqfIrY42XzWn+FDJHiKoooq2KCiiigDMdQuF9RfM8Ow/AwKpdSwOJ+8cZyT2AFXfWtM9m618A/DuEtI4DnkH+lVWito9x9Q4lbLSkj/ikcifA/nXmeRFfK0zdw1Pxpoc0+mGlVnZZ1BHq4Itg5KD380v9az+kqLcSwbLTMkgzFOPBLAMCYhRkANzJj864rKfRuAYQDgkTyaW+lpEv+irXrAJjIn2A5p9FRQWOT/So9m5cu/FbZsRbm1C49TBeWg+aHunc22dxxnAgHMV3albItNvQi7cuMW2mMxPsPFNsz4AxOK7O4z3Paj0yZIG38R86p3fkxyWiTZuj9UR6pb4cnGciKY67oRqdG7KCLyjfbPfco+79aetiyiLtH3GDwO5ncak6i78SyTPp2zIyZ9hR5JLZDvyR5Vduc9jOf8AKoFxi0zHerDrVk6XV3wuFe48dhzNMdN0LdT1a2Mi0kPfYc7DjaD5PH41o43teTOV/Q30/pWq6pcYWgUsK0Xb5WUXyqeW/s++66b0PQaJALduWwWd4Z2I7kmpmn09nTWbNjT2RsQBVW2AiW1Hck1Yq6IBsTcxgHGPczSs2VtaTOStdjduwiRO0DAyfwqSlh2aQBsA9O08n3FKBUyWEqM9jmplpVIUgiCMHzPiqkpt9HavSGxaAVcRwZC1z4BY/sxmQR2qVcVth29o95FRC7psO6ACQRH3hBxmrfjrsSqdejC/aPolrRpe6j09VW2pZtXp1HpTMG7bA4H7w+o9qPQNd1txUn9WkfEgczws+a2HWupW7auPTDBlZWghgRBB+dVPSNFa02nthDl2a6SQZJcyAfkIH0pF1LX/AEux5JdllpNqEKoACwqgc4q3tlWgAgkcwQarbaEXBAQLyxn1g9sVYWyqgBQMHxApIUTFZxICgjzOfyp+0zAHGRnvNRVWWUnJ9jGKlJMcbWBkwZwD70/GivQ+dxUlFBMCA5IUiczAJ/Kk3NIjMrJKEbvSsbHn94Uu2wbufSciDBxPepG9V+9CydoDHmrilUtUV3Tl9FaihLtwncHYqjBpgbARgVK3EbSMyVDSYgdzRq9MdTZuLbYJdhdjSSAwMwYzFQTc+ITZ9X3WD8gAggEHwarVjcMYmsiLNcMTjMkED2HJqxtf7tPlVRpv1jIgYncG448VcqNqqvgAVs8GX/sUeTpdCqKKK0ymFFFFADd1bbo63FVkYQysJBFZa8liw92xYUpaDs8STljJyc1q3EqazGvQpfurkT6l+orP5y+my7xPbQwTG3+Lk/LyaPTOOe8HMmkBWIIP0nuCKWqjkCJgn6YFYG+zSFb3Eg/uyCeB7CmvRJGZmRPb5GlsWMcRGaZPqYj1QQT7D3B80u6bJJBcJhisSeAcCfpSYSWOJYDcy8mBiTQwASZMDknmB3NJtA7StxtxJMQIx2GarPsYh4bSmDjFM6vVtZ07HaNyISqqOCOOMUpDAckQpMQcYGKrdXfVVujG0E4FRb0dS2zH/aK6Xaw0wzMSx74Aq8+yWkVNHb1Dff1TPc/6Z2r+Q/Osj1vULc1AQGRatkt/zNmt/wBEAtaHpoHH6LZAj2QVraqcE/8ARTadsuy20kmNsQIBmflXAGEFWAzmR28U0WcNvEsrFV2gD0zy0+PNOFsD5ifl5iqFPskkSrd1VAnbtgkknEVMF22qAi2XjayhBJJmJFVSsiwuNoAhYwBTpvOu1V7gwe2K7FOWRqEy6dlKg7oIzA4PsRVPr9WiWnKy3pfaRwCDHNcGseNrgkkwTIgSOap+p6y2FK7huAJx7YpmTM6I48Wn2Ynreuuai9tEhREFhnJg4rV6B5tp8j8/pWD6teVblxgQHckW/wCrfStb0e+uo0emug+o21czwDEGnZsbnFNaGq06cmiASBgQc/MjzTisTsDCGAzEwPlUe3kACckE+wqUu0gZHEg+arNLXQEizCkKGY8mWJJ/GpS/E7FZJETMlJAMwZ+VQbJQEjdPqk5kqT2ipiXEDW8ncCRAmIIP3opmN7FWiYEuKyOGIUKU2gCDJkH5/wCdLtEvvVyjhSoXIZzgGWjE00lxLqMm9gWQMRuKXFVpIk8iixeL3NqJa+CCZZQ27wI4Hzq/D0ys0yXkTtCkftGYIOIkfKoWqs2/iLdUwzEbtseojzUwsFLDmSJgZjgTFJT4bMqsog3FkHuZxTGlT8WQluex7QadkDXbgAZgAgHZfP1qfXB/Su1tY4USpRn3Tt7YUUUUwgFFFFAHD3qp6ppjcQXUEvb5HcrVvTN0YP1pWWFcuWMx05raMnzEeeaAfU/qx6RBqVr9MUY3bIjksvYn2qgPU9Lp7rDUN8HcYPxJAnzJEV5zLx7ivRsxatbJ7PeBuQYMjbP3Y4pYuE8ocCZFRF1elchkdWVgWVlbeh8wRIpRujs8bgPUM8flVOk17HIksNwEwF5YcYqIdTDhCrTJG4AhT4zSm1NlUCs4YAQS3JPvULUdQs2lYu6W0WCzPCjPucUpJvrR30O6jUEKQrqDMe+OazPWepWtJaO9t1xifhWxzcI7n2HemeofaBHLppf1hPDkRbXzA5NZ64lzUXGuXWZ3blmya0OPw2/tk9CsmbxWp9lZcvXrzOzBizsWYnEk16b9mdSmo6Z0/cYKWltPnh7foI/KsMukntV50DU/4fea1dxp7zBp/cuDEn2Pf5Vp8iPLH9V6K2OtV2b4bEGwMQdpKkgk4pNwoBgjdgkEETjzTS3w37WIxnmm7rFyCBxInsRWF47fZeBtRtG3OOGnv866NWNrZnI88/Sod22THrMzIAx2NNhntqykgAZJJqbla6AlXdTtCglvUe3PzNUPVNYltbhZoUDJ5J/1pes11i0vxLlzachRklj4Ve9ZnUX7usuFmUrb/ZQ5+re9OwcV5KTfohkyqF17Ku8z6i895lMkwo5CqOBWg+z+suWt+kbG4lrJMwSclT/P8ah27TCPSPwFTLRe2VYKAQQQQMyK2MuObjwZRiqmvI3WmuYXdEn+YqS7IPhswG6YXyCR2iqTp+stXrYaYcGHXuG8/KrJGa4Ui5IDksrCSQRhQe0VgVDltM0Np9j63gsnYy7nKjAk9p9Papli8ASWjgSahkQwiIzumfpFdVLdwtywIAKsSVEe3FLlaezrSaLpdtyW34ZQLYIBVf4o7/WlaWxb0qOEuPc9RYl2ZmLHkkt3qrXUva2i40CQqjifarC1dTv2yf5Sauzf60VqlolhmaTiCO4zMzyKXZ9dxAI9LLgHIjOahtdycyWwid2PsBmrTR6coDccEM3APIHk1cwxWS0VstKZZMFdrgrtbhmhRRRQAUUUUAFJYSKVRQBBu6YPyKr7/SLF4ENbDA+RNX1cpbxp+xiyNGH1H2Q0bP8AEsC5p7gMh9OxttPvtxUR/s31JAfha+6Ow327bH8Yr0MgHsKba0ppN8aL9obPIpHmV77OddaR/iN0D+C1bU/iBNV7/Y7Uud169dut+9cYsfzr1dtOvimjpUPaoLizPoY+TT9nlf8AsmU7Gj/Z5k/ZNeonQ2j/APlNnp1s9ql8BH5zzUdFK/sn8KD0l/3a9I/wy1+7+VKHStP3Wj4WS+Zfp5zasdS0y7bUOg4S4CR9CMilnWdSTD6C68YPw2U/kQK9FHStN+4KWOmaYf8ADX8KrVwlT2xs8pStHmx1mvb7vTNWW/i+Go/maYuWPtFq8LpksL5aXYe8YWvVF6fph+wv4Ur9Bsfuj8KJ4CT2D5mzyH/ZnXXG33i7ueWeSfkKkWvs3dESteqnQWT+yK4On2RGBVlYNCXn2ecW/s8wA9NdfoLAfdr0oaOwOwrjaHTt2FT+Ih8x5Yel6nTuLlqQ49sEeCKkWtYLJAvqbb8bj9xvrXoVzpNl5gCoN77P2bgIIUg+RVXLxPMfHJ0ZldajhYdSSYlcipK3UDSBkgfhPmpNz7G6Zm3W3e03Y2mZPyGPypS/ZG+DP+K60DEgG2f/AOlrPr+Pyb+paXKxtdiABcIktHAAx9aft49FtGuOTB2kbVB7sfNTtL9m7FmDd1WrvxmLtwBfwQCrizo9PZUBEVY8CrWHg0u7EZOVPqSPorTqAWtorQBIA3R4nmrACKAAOIrtasT4rSM+q8ns7RRRUyAUUUUAFcoooAK7RRQAVyiigArtFFAHIBrm0UUVw6d2r4rm1fFFFdOHYFECiig6ECiiig4FdoooAKKKKAOV2iigDlFFFABA8UQKKK4ARRRRQAV2iiugcooooA7RRRQB/9k=" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Potato</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="potato.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="product-item">
+                                <div class="position-relative bg-light overflow-hidden">
+                                    <img class="img-fluid w-100" src="https://th.bing.com/th/id/OIP.HCcMEMi4LT1YRHX2lp8cDAHaE8?w=256&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+                                    <div class="bg-secondary rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">New</div>
+                                </div>
+                                <div class="text-center p-4">
+                                    <a class="d-block h5 mb-2" href="">Fresh Green Peas</a>
+                                    <span class="text-primary me-1">$19.00</span>
+                                    <span class="text-body text-decoration-line-through">$29.00</span>
+                                </div>
+                                <div class="d-flex border-top">
+                                    <small class="w-50 text-center border-end py-2">
+                                        <a class="text-body" href="peas.html"><i class="fa fa-eye text-primary me-2"></i>View detail</a>
+                                    </small>
+                                    <small class="w-50 text-center py-2">
+                                        <a class="text-body" href="cart1.html"><i class="fa fa-shopping-bag text-primary me-2"></i>Add to cart</a>
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="">Browse More Products</a>
+                        </div>
+                    </div>
+                </div>
+               
+    <!-- Product End -->
+
+   
+
+    <!-- Firm Visit Start -->
+    <div class="container-fluid bg-primary bg-icon mt-5 py-6">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-7 wow fadeIn" data-wow-delay="0.1s">
+                    <h1 class="display-5 text-white mb-3">Visit Our Mandesh</h1>
+                    <p class="text-white mb-0">Mandesh Agro farmer Export is one of the leading fresh vegetable export company from India.Our main activity is export Organic vegetables like potato,carrot,onion,chilli & soyabeen. </p>
+                    <p class="text-white mb-0">Geographical location: We are located at Satara(India).Nashik has highest cultivation and production of grape, pomegrante, onion. Nearest sea and airport is Mumbai located only 4 hours journey from Satara. This is the major benefits of our geographical location.</p>
+                </div>
+                <div class="col-md-5 text-md-end wow fadeIn" data-wow-delay="0.5s">
+                    <a class="btn btn-lg btn-secondary rounded-pill py-3 px-5" href="visit.html">Visit Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Firm Visit End -->
+    
+
+     <!-- Testimonial Start -->
+     <div class="container-fluid bg-light bg-icon py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Customer Review</h1>
+                
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">It is a sustainable and environmentally friendly company, which belives in old school values and real services from real people.</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src=" https://th.bing.com/th/id/OIP.LXkv_HqpRzSoTE9Y76ZVHwHaE7?w=282&h=188&c=7&r=0&o=5&pid=1.7 " alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Ramdas Jadhav</h5>
+                            <span>Pune</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Value for money(rae in organic industry !)</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src="https://th.bing.com/th?q=Random+People&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247 " alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Santosh Jagdale</h5>
+                            <span>Katraj</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">I finally feel relif as i can enjoy veggies without worring about pesticides.What a delight!</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src=" https://th.bing.com/th/id/OIP.XqO6cETFqVBVcTHoDrdybAHaIs?w=164&h=192&c=7&r=0&o=5&pid=1.7 " alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Archana Patil</h5>
+                            <span>Pune</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item position-relative bg-white p-5 mt-4">
+                    <i class="fa fa-quote-left fa-3x text-primary position-absolute top-0 start-0 mt-n4 ms-5"></i>
+                    <p class="mb-4">Organic produce walking magically right into your house is made true by Mandesh Agro !</p>
+                    <div class="d-flex align-items-center">
+                        <img class="flex-shrink-0 rounded-circle" src=" https://th.bing.com/th/id/OIP.DRHJ-rjAW-RlEQPu78-TuQHaEK?w=323&h=182&c=7&r=0&o=5&pid=1.7 " alt="">
+                        <div class="ms-3">
+                            <h5 class="mb-1">Chitra Nair</h5>
+                            <span>Pune</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                   
+                    <p>Fresh gathered vegetables, Authentic and organic, No GMO used, Never processed only fresh, Direct from mother nature herself !</p>
+                    <p>Once visit and purchase !</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://youtube.com/@maandeshagrofpoltd8264"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Gate no 619,At Bothe,Post Kulakjai,Tal Man,Dist Satara</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+918446353001</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+918446253001</p>
+                    <p><i class="fa fa-envelope me-3"></i>info.maandeshagro@gmail.com</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="feature.html">Our Features</a>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Connect With</h4>
+                    <p>Connect with MANDESH by using these </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a href="#">MANDESH Organic Vegetables</a>, All Right Reserved.
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

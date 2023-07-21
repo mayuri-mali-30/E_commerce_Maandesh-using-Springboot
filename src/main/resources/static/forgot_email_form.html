@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<section>
+
+		<div class="container p-5">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="card">
+						<div class="card-header text-center fs-4">Enter your Registered Email-id</div>					
+
+						<div class="card-body">
+					
+							<form th:action="@{/send-otp}" method="post">
+								<div class="mb-3">
+									<input type="email" placeholder="Enter Email address" name="email"
+										class="form-control" required>
+								</div>
+								
+							
+								<button type="submit" class="btn btn-warning">Send OTP</button>
+							</form>
+							
+							
+
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+	</section>
+
+
+
+</body>
+
+</html>
